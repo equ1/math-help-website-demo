@@ -1,0 +1,196 @@
+body {
+    font: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    width: 1050;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 100px;
+    padding: 10px 0;
+}
+
+#brand {
+    float: left;
+}
+
+h1 a {
+    font-size: 50px;
+    font-weight: 100;
+    color: #861BBF;
+    text-decoration: none;
+}
+
+#searchbox {
+    float: right;
+    background: -webkit-linear-gradient(#E4F2B9, #B7E953);
+    background: -moz-linear-gradient(#E4F2B9, #B7E953);
+    background: -o-linear-gradient(#E4F2B9, #B7E953);
+    background: linear-gradient(#E4F2B9, #B7E953);
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px 0 20px;
+    margin-top: 10px
+}
+
+.text {
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: orange;
+    background: white url('images/search.png') right center no-repeat;
+    border: 1px solid #C8D03E;
+}
+
+.submit {
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background: purple;
+    font-size: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+/* sets style for id */
+
+#menu {
+    height: 70px;
+    background: -webkit-linear-gradient(#F8F594, #D5D533);
+    background: -moz-linear-gradient(#F8F594, #D5D533);
+    background: -o-linear-gradient(#F8F594, #D5D533);
+    background: linear-gradient(#F8F594, #D5D533);
+    padding: 7px 0
+}
+
+/* sets style for all ul in doc*/
+
+ul {
+    list-style: none;
+}
+
+/* sets style for the individual list items */
+
+#menu ul li {
+    float: left;
+    padding: 0 30px;
+    height: 20px;
+    border-right: 1px solid #5D12E7
+}
+
+/* sets style for last item in list */
+
+#menu ul li:last-child {
+    border-right: none;
+}
+
+/* sets style for links in individual list items */
+
+#menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #5D12E7;
+    line-height: 30px;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+/* sets same style for hover and active links */
+
+#menu ul li a:hover, #menu ul li a:active {
+    font-size: 20px;
+    font-weight: bold;
+    color: #B314DB;
+}
+
+#introduction {
+    background: linear-gradient(#E3F2B7, #BAEA58);
+    padding: 30px;
+    margin: 16px 0;
+}
+
+#introduction h3 {
+    font-size: 40px;
+    color: #31764C;
+    font-weight: normal;
+}
+
+#introduction p {
+    font-size: 25px;
+    color: #628F19;
+    text-align: justify;
+}
+
+.sidebar {
+    height: 500px;
+    width: 400px;
+    border: 1px solid #BAF46F;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.sidebar h3 {
+    color: #B314DB;
+    font-size: 30px;
+}
+
+.sidebar ul {
+    padding-top: 3px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #5D12E7;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a:active {
+    text-decoration: none;
+    color: #C02CDB;
+    font-size: 23px;
+    font-weight: bold;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+#leftsidebar {
+    float: left;
+}
+
+#leftsidebar ul li {
+    padding: 4px 0 4px 10px;
+    list-style-image: url('images/arrow.png');
+}
+
+#rightsidebar {
+    float: right;
+}
+
+#rightsidebar ul li {
+    padding: 17px 0 17px 50px;
+    background: url('images/tick.png') no-repeat left center;
+}
+
+.footer {
+    height: 60px;
+    background: -webkit-linear-gradient(#DEDD4B, #D6D636);
+    background: -moz-linear-gradient(#DEDD4B, #D6D636);
+    background: -o-linear-gradient(#DEDD4B, #D6D636);
+    background: linear-gradient(#DEDD4B, #D6D636);
+    padding: 10px 30px;
+    margin-top: 15px;
+}
